@@ -1,0 +1,2 @@
+This is the first line of content of file 4.
+This is the second line of content of file 4.
