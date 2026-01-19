@@ -1,0 +1,269 @@
+===== PART 1: Arnoldi Iteration =====
+Arnoldi relation error ||AQ - QH|| = 3.173e-14
+
+Q^H q_1 = (+1.00e+00) (+2.19e-16) (+2.34e-15) (+9.54e-17) (+1.34e-16) (+3.58e-16) (+3.19e-16) (+2.20e-16) (+3.94e-16) (+8.68e-17) (+2.60e-16) 
+Q^H q_2 = (+2.19e-16) (+1.00e+00) (+5.20e-16) (+8.45e-17) (+1.04e-16) (+1.46e-16) (+2.78e-17) (+9.34e-17) (+8.12e-17) (+4.16e-17) (+5.15e-17) 
+Q^H q_3 = (+2.34e-15) (+5.20e-16) (+1.00e+00) (+9.06e-18) (+2.08e-17) (+3.74e-17) (+2.80e-17) (+3.57e-17) (+2.82e-17) (+3.47e-17) (+2.78e-17) 
+Q^H q_4 = (+9.54e-17) (+8.45e-17) (+9.06e-18) (+1.00e+00) (+3.88e-18) (+5.29e-17) (+6.25e-17) (+3.20e-17) (+1.55e-17) (+2.50e-17) (+3.96e-17) 
+Q^H q_5 = (+1.34e-16) (+1.04e-16) (+2.08e-17) (+3.88e-18) (+1.00e+00) (+5.97e-17) (+2.22e-17) (+2.80e-17) (+7.15e-18) (+2.96e-17) (+6.94e-18) 
+Q^H q_6 = (+3.58e-16) (+1.46e-16) (+3.74e-17) (+5.29e-17) (+5.97e-17) (+1.00e+00) (+4.23e-17) (+4.56e-17) (+1.87e-17) (+4.35e-17) (+3.47e-17) 
+Q^H q_7 = (+3.19e-16) (+2.78e-17) (+2.80e-17) (+6.25e-17) (+2.22e-17) (+4.23e-17) (+1.00e+00) (+2.60e-18) (+3.62e-17) (+1.71e-17) (+4.40e-17) 
+Q^H q_8 = (+2.20e-16) (+9.34e-17) (+3.57e-17) (+3.20e-17) (+2.80e-17) (+4.56e-17) (+2.60e-18) (+1.00e+00) (+2.96e-17) (+3.20e-17) (+3.79e-17) 
+Q^H q_9 = (+3.94e-16) (+8.12e-17) (+2.82e-17) (+1.55e-17) (+7.15e-18) (+1.87e-17) (+3.62e-17) (+2.96e-17) (+1.00e+00) (+2.50e-17) (+4.55e-17) 
+Q^H q_10 = (+8.68e-17) (+4.16e-17) (+3.47e-17) (+2.50e-17) (+2.96e-17) (+4.35e-17) (+1.71e-17) (+3.20e-17) (+2.50e-17) (+1.00e+00) (+4.05e-17) 
+Q^H q_11 = (+2.60e-16) (+5.15e-17) (+2.78e-17) (+3.96e-17) (+6.94e-18) (+3.47e-17) (+4.40e-17) (+3.79e-17) (+4.55e-17) (+4.05e-17) (+1.00e+00) 
+
+===== PART 2: Nilpotent Matrices =====
+
+Nilpotent matrix test:
+m = 2, nilpotency index N = 2
+m = 3, nilpotency index N = 3
+m = 4, nilpotency index N = 4
+m = 5, nilpotency index N = 5
+m = 6, nilpotency index N = 6
+m = 7, nilpotency index N = 7
+m = 8, nilpotency index N = 8
+m = 9, nilpotency index N = 9
+m = 10, nilpotency index N = 10
+m = 11, nilpotency index N = 11
+m = 12, nilpotency index N = 12
+m = 13, nilpotency index N = 13
+m = 14, nilpotency index N = 14
+m = 15, nilpotency index N = 15
+m = 16, nilpotency index N = 16
+m = 17, nilpotency index N = 17
+m = 18, nilpotency index N = 18
+m = 19, nilpotency index N = 19
+m = 20, nilpotency index N = 20
+m = 21, nilpotency index N = 21
+m = 22, nilpotency index N = 22
+m = 23, nilpotency index N = 23
+m = 24, nilpotency index N = 24
+m = 25, nilpotency index N = 25
+m = 26, nilpotency index N = 26
+m = 27, nilpotency index N = 27
+m = 28, nilpotency index N = 28
+m = 29, nilpotency index N = 29
+m = 30, nilpotency index N = 30
+m = 31, nilpotency index N = 31
+m = 32, nilpotency index N = 32
+m = 33, nilpotency index N = 33
+m = 34, nilpotency index N = 34
+m = 35, nilpotency index N = 35
+m = 36, nilpotency index N = 36
+m = 37, nilpotency index N = 37
+m = 38, nilpotency index N = 38
+m = 39, nilpotency index N = 39
+m = 40, nilpotency index N = 40
+m = 41, nilpotency index N = 41
+m = 42, nilpotency index N = 42
+m = 43, nilpotency index N = 43
+m = 44, nilpotency index N = 44
+m = 45, nilpotency index N = 45
+m = 46, nilpotency index N = 46
+m = 47, nilpotency index N = 47
+m = 48, nilpotency index N = 48
+m = 49, nilpotency index N = 49
+m = 50, nilpotency index N = 50
+
+===== PART 3: Alternative Orthogonalization =====
+Iteration 0: |Tr(CC^H) - m| = 1.354e+01
+Iteration 1: |Tr(CC^H) - m| = 1.354e+01
+Iteration 2: |Tr(CC^H) - m| = 1.354e+01
+Iteration 3: |Tr(CC^H) - m| = 1.354e+01
+Iteration 4: |Tr(CC^H) - m| = 1.354e+01
+Iteration 5: |Tr(CC^H) - m| = 1.354e+01
+Iteration 6: |Tr(CC^H) - m| = 1.354e+01
+Iteration 7: |Tr(CC^H) - m| = 1.354e+01
+Iteration 8: |Tr(CC^H) - m| = 1.354e+01
+Iteration 9: |Tr(CC^H) - m| = 1.354e+01
+Iteration 10: |Tr(CC^H) - m| = 1.354e+01
+Iteration 11: |Tr(CC^H) - m| = 1.354e+01
+Iteration 12: |Tr(CC^H) - m| = 1.354e+01
+Iteration 13: |Tr(CC^H) - m| = 1.354e+01
+Iteration 14: |Tr(CC^H) - m| = 1.354e+01
+Iteration 15: |Tr(CC^H) - m| = 1.354e+01
+Iteration 16: |Tr(CC^H) - m| = 1.354e+01
+Iteration 17: |Tr(CC^H) - m| = 1.354e+01
+Iteration 18: |Tr(CC^H) - m| = 1.354e+01
+Iteration 19: |Tr(CC^H) - m| = 1.354e+01
+Iteration 20: |Tr(CC^H) - m| = 1.354e+01
+Iteration 21: |Tr(CC^H) - m| = 1.354e+01
+Iteration 22: |Tr(CC^H) - m| = 1.354e+01
+Iteration 23: |Tr(CC^H) - m| = 1.354e+01
+Iteration 24: |Tr(CC^H) - m| = 1.354e+01
+Iteration 25: |Tr(CC^H) - m| = 1.354e+01
+Iteration 26: |Tr(CC^H) - m| = 1.354e+01
+Iteration 27: |Tr(CC^H) - m| = 1.354e+01
+Iteration 28: |Tr(CC^H) - m| = 1.354e+01
+Iteration 29: |Tr(CC^H) - m| = 1.354e+01
+Iteration 30: |Tr(CC^H) - m| = 1.354e+01
+Iteration 31: |Tr(CC^H) - m| = 1.354e+01
+Iteration 32: |Tr(CC^H) - m| = 1.354e+01
+Iteration 33: |Tr(CC^H) - m| = 1.354e+01
+Iteration 34: |Tr(CC^H) - m| = 1.354e+01
+Iteration 35: |Tr(CC^H) - m| = 1.354e+01
+Iteration 36: |Tr(CC^H) - m| = 1.354e+01
+Iteration 37: |Tr(CC^H) - m| = 1.354e+01
+Iteration 38: |Tr(CC^H) - m| = 1.354e+01
+Iteration 39: |Tr(CC^H) - m| = 1.354e+01
+Iteration 40: |Tr(CC^H) - m| = 1.354e+01
+Iteration 41: |Tr(CC^H) - m| = 1.354e+01
+Iteration 42: |Tr(CC^H) - m| = 1.354e+01
+Iteration 43: |Tr(CC^H) - m| = 1.354e+01
+Iteration 44: |Tr(CC^H) - m| = 1.354e+01
+Iteration 45: |Tr(CC^H) - m| = 1.354e+01
+Iteration 46: |Tr(CC^H) - m| = 1.354e+01
+Iteration 47: |Tr(CC^H) - m| = 1.354e+01
+Iteration 48: |Tr(CC^H) - m| = 1.354e+01
+Iteration 49: |Tr(CC^H) - m| = 1.354e+01
+Iteration 50: |Tr(CC^H) - m| = 1.354e+01
+Iteration 51: |Tr(CC^H) - m| = 1.354e+01
+Iteration 52: |Tr(CC^H) - m| = 1.354e+01
+Iteration 53: |Tr(CC^H) - m| = 1.354e+01
+Iteration 54: |Tr(CC^H) - m| = 1.354e+01
+Iteration 55: |Tr(CC^H) - m| = 1.354e+01
+Iteration 56: |Tr(CC^H) - m| = 1.354e+01
+Iteration 57: |Tr(CC^H) - m| = 1.354e+01
+Iteration 58: |Tr(CC^H) - m| = 1.354e+01
+Iteration 59: |Tr(CC^H) - m| = 1.354e+01
+Iteration 60: |Tr(CC^H) - m| = 1.354e+01
+Iteration 61: |Tr(CC^H) - m| = 1.354e+01
+Iteration 62: |Tr(CC^H) - m| = 1.354e+01
+Iteration 63: |Tr(CC^H) - m| = 1.354e+01
+Iteration 64: |Tr(CC^H) - m| = 1.354e+01
+Iteration 65: |Tr(CC^H) - m| = 1.354e+01
+Iteration 66: |Tr(CC^H) - m| = 1.354e+01
+Iteration 67: |Tr(CC^H) - m| = 1.354e+01
+Iteration 68: |Tr(CC^H) - m| = 1.354e+01
+Iteration 69: |Tr(CC^H) - m| = 1.354e+01
+Iteration 70: |Tr(CC^H) - m| = 1.354e+01
+Iteration 71: |Tr(CC^H) - m| = 1.354e+01
+Iteration 72: |Tr(CC^H) - m| = 1.354e+01
+Iteration 73: |Tr(CC^H) - m| = 1.354e+01
+Iteration 74: |Tr(CC^H) - m| = 1.354e+01
+Iteration 75: |Tr(CC^H) - m| = 1.354e+01
+Iteration 76: |Tr(CC^H) - m| = 1.354e+01
+Iteration 77: |Tr(CC^H) - m| = 1.354e+01
+Iteration 78: |Tr(CC^H) - m| = 1.354e+01
+Iteration 79: |Tr(CC^H) - m| = 1.354e+01
+Iteration 80: |Tr(CC^H) - m| = 1.354e+01
+Iteration 81: |Tr(CC^H) - m| = 1.354e+01
+Iteration 82: |Tr(CC^H) - m| = 1.354e+01
+Iteration 83: |Tr(CC^H) - m| = 1.354e+01
+Iteration 84: |Tr(CC^H) - m| = 1.354e+01
+Iteration 85: |Tr(CC^H) - m| = 1.354e+01
+Iteration 86: |Tr(CC^H) - m| = 1.354e+01
+Iteration 87: |Tr(CC^H) - m| = 1.354e+01
+Iteration 88: |Tr(CC^H) - m| = 1.354e+01
+Iteration 89: |Tr(CC^H) - m| = 1.354e+01
+Iteration 90: |Tr(CC^H) - m| = 1.354e+01
+Iteration 91: |Tr(CC^H) - m| = 1.354e+01
+Iteration 92: |Tr(CC^H) - m| = 1.354e+01
+Iteration 93: |Tr(CC^H) - m| = 1.354e+01
+Iteration 94: |Tr(CC^H) - m| = 1.354e+01
+Iteration 95: |Tr(CC^H) - m| = 1.354e+01
+Iteration 96: |Tr(CC^H) - m| = 1.354e+01
+Iteration 97: |Tr(CC^H) - m| = 1.354e+01
+Iteration 98: |Tr(CC^H) - m| = 1.354e+01
+Iteration 99: |Tr(CC^H) - m| = 1.354e+01
+Iteration 100: |Tr(CC^H) - m| = 1.354e+01
+Iteration 101: |Tr(CC^H) - m| = 1.354e+01
+Iteration 102: |Tr(CC^H) - m| = 1.354e+01
+Iteration 103: |Tr(CC^H) - m| = 1.354e+01
+Iteration 104: |Tr(CC^H) - m| = 1.354e+01
+Iteration 105: |Tr(CC^H) - m| = 1.354e+01
+Iteration 106: |Tr(CC^H) - m| = 1.354e+01
+Iteration 107: |Tr(CC^H) - m| = 1.354e+01
+Iteration 108: |Tr(CC^H) - m| = 1.354e+01
+Iteration 109: |Tr(CC^H) - m| = 1.354e+01
+Iteration 110: |Tr(CC^H) - m| = 1.354e+01
+Iteration 111: |Tr(CC^H) - m| = 1.354e+01
+Iteration 112: |Tr(CC^H) - m| = 1.354e+01
+Iteration 113: |Tr(CC^H) - m| = 1.354e+01
+Iteration 114: |Tr(CC^H) - m| = 1.354e+01
+Iteration 115: |Tr(CC^H) - m| = 1.354e+01
+Iteration 116: |Tr(CC^H) - m| = 1.354e+01
+Iteration 117: |Tr(CC^H) - m| = 1.354e+01
+Iteration 118: |Tr(CC^H) - m| = 1.354e+01
+Iteration 119: |Tr(CC^H) - m| = 1.354e+01
+Iteration 120: |Tr(CC^H) - m| = 1.354e+01
+Iteration 121: |Tr(CC^H) - m| = 1.354e+01
+Iteration 122: |Tr(CC^H) - m| = 1.354e+01
+Iteration 123: |Tr(CC^H) - m| = 1.354e+01
+Iteration 124: |Tr(CC^H) - m| = 1.354e+01
+Iteration 125: |Tr(CC^H) - m| = 1.354e+01
+Iteration 126: |Tr(CC^H) - m| = 1.354e+01
+Iteration 127: |Tr(CC^H) - m| = 1.354e+01
+Iteration 128: |Tr(CC^H) - m| = 1.354e+01
+Iteration 129: |Tr(CC^H) - m| = 1.354e+01
+Iteration 130: |Tr(CC^H) - m| = 1.354e+01
+Iteration 131: |Tr(CC^H) - m| = 1.354e+01
+Iteration 132: |Tr(CC^H) - m| = 1.354e+01
+Iteration 133: |Tr(CC^H) - m| = 1.354e+01
+Iteration 134: |Tr(CC^H) - m| = 1.354e+01
+Iteration 135: |Tr(CC^H) - m| = 1.354e+01
+Iteration 136: |Tr(CC^H) - m| = 1.354e+01
+Iteration 137: |Tr(CC^H) - m| = 1.354e+01
+Iteration 138: |Tr(CC^H) - m| = 1.354e+01
+Iteration 139: |Tr(CC^H) - m| = 1.354e+01
+Iteration 140: |Tr(CC^H) - m| = 1.354e+01
+Iteration 141: |Tr(CC^H) - m| = 1.354e+01
+Iteration 142: |Tr(CC^H) - m| = 1.354e+01
+Iteration 143: |Tr(CC^H) - m| = 1.354e+01
+Iteration 144: |Tr(CC^H) - m| = 1.354e+01
+Iteration 145: |Tr(CC^H) - m| = 1.354e+01
+Iteration 146: |Tr(CC^H) - m| = 1.354e+01
+Iteration 147: |Tr(CC^H) - m| = 1.354e+01
+Iteration 148: |Tr(CC^H) - m| = 1.354e+01
+Iteration 149: |Tr(CC^H) - m| = 1.354e+01
+Iteration 150: |Tr(CC^H) - m| = 1.354e+01
+Iteration 151: |Tr(CC^H) - m| = 1.354e+01
+Iteration 152: |Tr(CC^H) - m| = 1.354e+01
+Iteration 153: |Tr(CC^H) - m| = 1.354e+01
+Iteration 154: |Tr(CC^H) - m| = 1.354e+01
+Iteration 155: |Tr(CC^H) - m| = 1.354e+01
+Iteration 156: |Tr(CC^H) - m| = 1.354e+01
+Iteration 157: |Tr(CC^H) - m| = 1.354e+01
+Iteration 158: |Tr(CC^H) - m| = 1.354e+01
+Iteration 159: |Tr(CC^H) - m| = 1.354e+01
+Iteration 160: |Tr(CC^H) - m| = 1.354e+01
+Iteration 161: |Tr(CC^H) - m| = 1.354e+01
+Iteration 162: |Tr(CC^H) - m| = 1.354e+01
+Iteration 163: |Tr(CC^H) - m| = 1.354e+01
+Iteration 164: |Tr(CC^H) - m| = 1.354e+01
+Iteration 165: |Tr(CC^H) - m| = 1.354e+01
+Iteration 166: |Tr(CC^H) - m| = 1.354e+01
+Iteration 167: |Tr(CC^H) - m| = 1.354e+01
+Iteration 168: |Tr(CC^H) - m| = 1.354e+01
+Iteration 169: |Tr(CC^H) - m| = 1.354e+01
+Iteration 170: |Tr(CC^H) - m| = 1.354e+01
+Iteration 171: |Tr(CC^H) - m| = 1.354e+01
+Iteration 172: |Tr(CC^H) - m| = 1.354e+01
+Iteration 173: |Tr(CC^H) - m| = 1.354e+01
+Iteration 174: |Tr(CC^H) - m| = 1.354e+01
+Iteration 175: |Tr(CC^H) - m| = 1.354e+01
+Iteration 176: |Tr(CC^H) - m| = 1.354e+01
+Iteration 177: |Tr(CC^H) - m| = 1.354e+01
+Iteration 178: |Tr(CC^H) - m| = 1.354e+01
+Iteration 179: |Tr(CC^H) - m| = 1.354e+01
+Iteration 180: |Tr(CC^H) - m| = 1.354e+01
+Iteration 181: |Tr(CC^H) - m| = 1.354e+01
+Iteration 182: |Tr(CC^H) - m| = 1.354e+01
+Iteration 183: |Tr(CC^H) - m| = 1.354e+01
+Iteration 184: |Tr(CC^H) - m| = 1.354e+01
+Iteration 185: |Tr(CC^H) - m| = 1.354e+01
+Iteration 186: |Tr(CC^H) - m| = 1.354e+01
+Iteration 187: |Tr(CC^H) - m| = 1.354e+01
+Iteration 188: |Tr(CC^H) - m| = 1.354e+01
+Iteration 189: |Tr(CC^H) - m| = 1.354e+01
+Iteration 190: |Tr(CC^H) - m| = 1.354e+01
+Iteration 191: |Tr(CC^H) - m| = 1.354e+01
+Iteration 192: |Tr(CC^H) - m| = 1.354e+01
+Iteration 193: |Tr(CC^H) - m| = 1.354e+01
+Iteration 194: |Tr(CC^H) - m| = 1.354e+01
+Iteration 195: |Tr(CC^H) - m| = 1.354e+01
+Iteration 196: |Tr(CC^H) - m| = 1.354e+01
+Iteration 197: |Tr(CC^H) - m| = 1.354e+01
+Iteration 198: |Tr(CC^H) - m| = 1.354e+01
+Iteration 199: |Tr(CC^H) - m| = 1.354e+01
