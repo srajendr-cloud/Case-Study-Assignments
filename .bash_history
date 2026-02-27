@@ -370,3 +370,152 @@ gcc determinant_bisection.c -o det1 -llapack -lblas -lm
 ./det1
 ls
 exit
+git init
+notepad README.md
+nano README.md
+git add
+git add .
+git commit -m "Assignment 5: LAPACK linear systems and determinants"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/Assignment5-HPC-LAPACK.git
+git remote add origin https://github.com/srajendr-cloud/Assignment5-HPC-LAPACK.git
+git branch -M main
+git remote add origin https://github.com/srajendr-cloud/Assignment5-HPC-LAPACK.git
+git push -u origin main
+mkdir hpc_software
+cd hpc_software
+nano q1_sendrecv.c
+nano q1_collective.c
+mpicc q1_sendrecv.c -o q1sr
+module avail mpi
+module load openmpi
+which mpicc
+module unload openmpi
+module load mpi/latest
+which mpicc
+mpicc q1_sendrecv.c -o q1sr
+mpirun -np 4 ./q1sr input_16.txt
+nano q1_sendrecv.c
+mpicc q1_sendrecv.c -o q1sr
+mpirun -np 4 ./q1sr input_16.txt
+ls
+nano input_16.txt
+cat input_16.txt
+mpirun -np 4 ./q1sr input_16.txt
+q1_output_sendrecv.txt
+ls
+cat q1_output_sendrecv.txt
+nano decomp1d.c
+nano q2_test.c
+module purge
+module load compiler/latest
+module purge
+module load tbb/latest
+module load compiler/latest
+module purge
+module load tbb/latest
+module load compiler-rt/latest
+module load compiler/latest
+module purge
+module load tbb/latest
+module load oclfpga/latest
+module load compiler/latest
+module purge
+module load mpi/latest
+mpicc --version
+mpicc q2_test.c decomp1d.c -o q2_test
+mpirun -np 9 ./q2_test 25
+mpirun -np 10 ./q2_test 100000
+mpirun -np 1 ./q2_test 25
+nano makefile
+module purge
+module load mpi/latest
+make
+ls
+nano q3_norm.c
+make
+module purge
+module load mpi/latest
+make
+ls
+mpirun -np 9 ./q2_test 25
+nano README
+nano makefile
+ls
+pwd
+ls
+rm -f q1sr q1_collective q1_sendrecv q2_test q2_test.c q3_norm q1_output_sendrecv.txt
+ls
+cp decomp1d.c q1_collective.c q1_sendrecv.c q3_norm.c makefile README SoftwareAssi1/
+/home/users/mschpc/2025/srajendr/hpc_software
+mkdir submission
+cp decomp1d.c q1_collective.c q1_sendrecv.c q3_norm.c makefile README submission/
+cp input_16.txt submission/
+tar -czvf software_assignment1.tar.gz submission
+tar -tzvf software_assignment1.tar.gz
+cd software_assignment1.tar
+cd hpc_software
+ls
+Get-History
+Get-History | Select-String scp
+Get-Content (Get-PSReadLineOption).HistorySavePath
+pwd
+tar -tvf assignment5.tar
+tar -tvf hpc_software.tar
+tar -tvf hpc_software
+cd hpc_software
+ls
+scp srajendr@seagull.tchpc.tcd.ie:/home/users/tchpc/2025/srajendr/hpc_software/software_assignment1.tar.gz "C:\Users\sreel\Downloads\"
+cd hpc_software
+ls
+exit
+ls /home/users/tchpc/2025/srajendr/
+ls /home/users/tchpc/2025/srajendr/hpc_software/
+ls /home/users/tchpc/2025/srajendr/software-assignment1.tar.gz/
+scp srajendr@rsync.tchpc.tcd.ie:/full/path/to/software_assignment1.tar.gz C:\Users\sreel\Downloadsexit
+exit
+mpicc q1_sendrecv.c -o q1sr
+cd hpc_software
+ls
+mpicc q1_sendrecv.c -o q1sr
+module load mpi/latest
+which mpicc
+cd hpc_software
+ls
+mpicc q1_sendrecv.c -o q1sr
+mpirun -np 4 ./q1sr input_16.txt
+cat q1_output_sendrecv.txt
+mpicc q1_collective.c -o q1col
+cat q1_output_collective.txt
+mpirun -np 4 ./q1sr input_16.txt
+00.txt
+mkdir CAQ_assignment
+cd CAQ_assignment
+nano tsqr.c
+nano Makefile
+nano tsqr.c
+nano Makefile
+make
+./tsqr
+nano tsqr.c
+nano Makefile
+nano tsqr.c
+nano Makefile
+nano tsqr.c
+nano Makefile
+make
+./tsqr
+nano tsqr.c
+./tsqr
+ls
+tar -czvf CAQ_assignment.tar.gz CAQ_final
+tar -czvf CAQ_assignment.tar.gz CAQ_assignment
+scp srajendr@seagull.tchpc.tcd.ie:/home/users/tchpc/2025/srajendr/CAQ_assignment.tar.gz .
+pwd
+exit
+cd CAQ_assignment
+ls
+nano README.txt
+ls
+cd $HOME
+exit

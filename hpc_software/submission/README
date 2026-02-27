@@ -1,0 +1,44 @@
+Assignment 1 – HPC SOFTWARE
+
+Compilation
+-----------
+Load modules:
+
+module purge
+module load mpi/latest
+
+Compile using make:
+
+make
+
+
+Programs
+--------
+
+Q1 Send/Recv version
+mpirun -np 4 ./q1_sendrecv input16.txt
+mpirun -np 10 ./q1_sendrecv input10000.txt
+
+
+Q1 Collective version
+mpirun -np 4 ./q1_collective input16.txt
+mpirun -np 10 ./q1_collective input10000.txt
+
+
+Q2 Decomposition
+mpirun -np 9 ./q2_test 25
+mpirun -np 10 ./q2_test 100000
+mpirun -np 1 ./q2_test 25
+
+
+Q3 Norm computation
+mpirun -np 4 ./q3_norm q3file_16.txt
+mpirun -np 11 ./q3_norm q3file_97.txt
+mpirun -np 6 ./q3_norm q3file_97.txt
+mpirun -np 1 ./q3_norm q3file_16.txt
+
+
+Cleaning executables
+--------------------
+make clean
+
